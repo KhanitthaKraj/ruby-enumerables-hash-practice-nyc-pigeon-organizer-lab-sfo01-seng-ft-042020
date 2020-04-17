@@ -5,11 +5,12 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key, value|
     value.each do |key2, value2|
-      data_value << value2
+      binding.pry
+      #data_value << value2
     end
-    uniq_flatten_data = data_value.flatten.uniq
+    #uniq_flatten_data = data_value.flatten.uniq
 
-    binding.pry
+    
 
   end
   
