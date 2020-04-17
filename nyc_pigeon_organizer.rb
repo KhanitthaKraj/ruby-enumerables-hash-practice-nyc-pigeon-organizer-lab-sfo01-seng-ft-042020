@@ -12,15 +12,15 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name][key]
           pigeon_list[name][key] = []
         end 
-        #pigeon_list[name][key] << key2
+        pigeon_list[name][key] << key2
         
       end
-      binding.pry
+      
       #data_value << value2
     end
     #uniq_flatten_data = data_value.flatten.uniq
 
-    
+    binding.pry
 
   end
   
