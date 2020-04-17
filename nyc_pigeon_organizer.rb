@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   # and values refers to properties inside each attribute-hash
   data.each do |attribute, values|
     # loop over values
-    # key2 refers to each key that points to an array (eg.)
+    # key2 refers to each key that points to an array (eg.:purple)
     values.each do |key2, names|
       names.each do |name|
         if !pigeon_list[name]
