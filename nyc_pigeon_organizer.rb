@@ -1,4 +1,3 @@
-require 'pry'
 def nyc_pigeon_organizer(data)
   # create a new hash
   pigeon_list = {}
@@ -25,7 +24,6 @@ def nyc_pigeon_organizer(data)
         end 
         # shove key2 into the empty array and convert from key-format to string-format
         pigeon_list[name][attribute] << key2.to_s
-        binding.pry
       end
     end
   end
