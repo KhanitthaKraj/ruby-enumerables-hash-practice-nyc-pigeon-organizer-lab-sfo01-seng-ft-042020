@@ -12,6 +12,8 @@ def nyc_pigeon_organizer(data)
     values.each do |key2, names|
       # iterate over names-array and while each element inside = |name|
       names.each do |name|
+        # check if name element already exist in pigeon_list-hash
+        # if not assign that name element into the hash
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
