@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, values|
     # loop deeper over values
     # key2 refers to each key that points to an array (e.g.:purple)
-    # and nemes refers to an array of strings that key2 points to
+    # and nemes refers to an array of strings/names that key2 points to
     values.each do |key2, names|
       names.each do |name|
         if !pigeon_list[name]
