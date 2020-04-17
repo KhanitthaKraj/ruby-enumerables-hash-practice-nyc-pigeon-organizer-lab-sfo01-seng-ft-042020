@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   
   # iterate over data hash (most-outer hash)
   # attribute refers to :color, :gender, :lives (inner-hashes)
-  # and values refers to hashs or arrays inside each attribute
+  # and values refers to properties inside each attribute-hash
   data.each do |attribute, values|
     # loop deeper in values
     values.each do |key2, names|
