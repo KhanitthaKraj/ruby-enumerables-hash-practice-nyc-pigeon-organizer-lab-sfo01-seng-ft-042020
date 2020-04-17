@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
     end
     #uniq_flatten_data = data_value.flatten.uniq
 
-    #binding.pry
+    binding.pry
 
   end
   pigeon_list
