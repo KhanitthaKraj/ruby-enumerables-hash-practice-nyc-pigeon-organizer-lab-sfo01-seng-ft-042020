@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name] = {}
         end
         # check if attribute already exists as key(name) value 
-        # assign those attribute
+        # assign those attribute 
         if !pigeon_list[name][attribute]
           pigeon_list[name][attribute] = []
         end 
