@@ -1,5 +1,6 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
+  # create a new hash
   pigeon_list = {}
   
   # iterate over data-hash (most-outer hash)
@@ -28,6 +29,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  # return hash
+  # return a new organized hash
   pigeon_list
 end
