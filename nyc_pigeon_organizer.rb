@@ -2,6 +2,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
+  # iterate over data hash (most-outer hash)
   data.each do |attribute, value|
     value.each do |key2, names|
       names.each do |name|
