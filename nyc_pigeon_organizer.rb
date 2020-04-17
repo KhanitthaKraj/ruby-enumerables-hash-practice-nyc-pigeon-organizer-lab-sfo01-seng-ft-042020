@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   
   # iterate over data hash (most-outer hash)
   data.each do |attribute, values|
-    value.each do |key2, names|
+    values.each do |key2, names|
       names.each do |name|
         if !pigeon_list[name]
           pigeon_list[name] = {}
