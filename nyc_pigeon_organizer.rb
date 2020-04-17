@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
-        # assign the attribute-key to name-hash and equal to an empty array
+        # assign the attribute-key to name-hash and attribute-key points to an empty array
         if !pigeon_list[name][attribute]
           pigeon_list[name][attribute] = []
         end 
