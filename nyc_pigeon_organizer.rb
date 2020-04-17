@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         # check if name element already exist in pigeon_list hash
         # if not yet exist: assign that name element into the hash as a key
-        # Hash makes sure there is no duplicate keys 
+        # Hash makes sure there is no duplicate keys: same names will be assigned as one single key
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
