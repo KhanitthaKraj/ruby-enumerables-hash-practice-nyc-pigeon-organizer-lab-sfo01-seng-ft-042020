@@ -2,7 +2,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
-  # iterate over data hash (most-outer hash)
+  # iterate over data-hash (most-outer hash)
   # attribute refers to :color, :gender, :lives (inner-hashes)
   # and values refers to properties inside each attribute-hash
   data.each do |attribute, values|
