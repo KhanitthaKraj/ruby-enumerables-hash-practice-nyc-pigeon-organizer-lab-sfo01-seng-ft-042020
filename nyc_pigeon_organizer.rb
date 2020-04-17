@@ -18,8 +18,8 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
-        # check if attribute already exists
-        # assign those attribute to an array
+        # check if attribute already exists inside the pigeon_list hash
+        # assign those attribute equal to an empty array
         if !pigeon_list[name][attribute]
           pigeon_list[name][attribute] = []
         end 
