@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   # attribute refers to :color, :gender, :lives (inner-hashes)
   # and values refers to properties inside each attribute-hash
   data.each do |attribute, values|
-    # loop deeper in values
+    # loop over values
     values.each do |key2, names|
       names.each do |name|
         if !pigeon_list[name]
