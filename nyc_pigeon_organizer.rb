@@ -3,8 +3,8 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
   # iterate over data hash (most-outer hash)
-  # attribute refers to :color, :gender, :lives
-  # values refers to 
+  # attribute refers to :color, :gender, :lives (inner-hashes)
+  # and values refers to 
   data.each do |attribute, values|
     values.each do |key2, names|
       names.each do |name|
