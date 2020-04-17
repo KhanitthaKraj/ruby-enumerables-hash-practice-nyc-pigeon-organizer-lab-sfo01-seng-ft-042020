@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
   # iterate over data-hash (most-outer hash)
-  # attribute refers to :color, :gender, :lives (inner-hashes)
+  # attribute refers to :color, :gender, :lives (inner-hashes) keys
   # and values refers to properties inside each attribute-hash
   data.each do |attribute, values|
     # loop deeper over values
@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
-        # check if attribute already exists inside the pigeon_list hash
+        # check if attribute already exists in the pigeon_list hash
         # assign the attribute equal to an empty array
         if !pigeon_list[name][attribute]
           pigeon_list[name][attribute] = []
