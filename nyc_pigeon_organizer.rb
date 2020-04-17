@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   
   # iterate over data hash (most-outer hash)
   # attribute refers to :color, :gender, :lives
+  # 
   data.each do |attribute, values|
     values.each do |key2, names|
       names.each do |name|
