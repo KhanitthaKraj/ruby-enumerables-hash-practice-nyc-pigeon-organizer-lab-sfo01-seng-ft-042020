@@ -8,9 +8,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if !pigeon_list[name]
           pigeon_list[name] = {}
+          binding.pry
         end
       end
-      binding.pry
+      
       #data_value << value2
     end
     #uniq_flatten_data = data_value.flatten.uniq
