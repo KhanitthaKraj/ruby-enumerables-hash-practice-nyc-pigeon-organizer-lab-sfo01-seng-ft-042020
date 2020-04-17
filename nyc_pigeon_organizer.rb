@@ -1,7 +1,6 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  data_value = []
   
   data.each do |attribute, value|
     value.each do |key2, names|
