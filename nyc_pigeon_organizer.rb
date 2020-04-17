@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
     # key2 refers to each key that points to an array (e.g.:purple)
     # and nemes refers to an array of strings/names that key2 points to
     values.each do |key2, names|
+      # iterate over names array and get each element inside
       names.each do |name|
         if !pigeon_list[name]
           pigeon_list[name] = {}
